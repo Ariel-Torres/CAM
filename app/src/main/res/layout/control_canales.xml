@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="4"
+    android:id="@+id/gridcanales"
+    android:padding="20px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="TEXTO"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:gravity="center"
+        android:layout_margin="@dimen/window"
+        android:id="@+id/txtCanal"
+        android:textColor="#000000" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dip"
+        android:text="Julio  2016\n89.8%\nExperiencia Total"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@color/Amarillo"
+        android:layout_margin="@dimen/window"
+        android:id="@+id/Ctotal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dip"
+        android:text="83.8%\nServicio\nToma de\nPedido"
+        android:gravity="center"
+        android:id="@+id/C1"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        android:background="@color/Amarillo"
+        android:layout_margin="@dimen/window" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dip"
+        android:text="83.8%\nServicio\nToma de\nPedido"
+        android:gravity="center"
+        android:id="@+id/C2"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        android:background="@color/Rojo2"
+        android:layout_margin="@dimen/window"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dip"
+        android:text="83.8%\nServicio\nToma de\nPedido"
+        android:gravity="center"
+        android:id="@+id/C3"
+        android:layout_rowWeight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/window"
+        android:background="@color/Verde2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dip"
+        android:text="83.8%\nServicio\nToma de\nPedido"
+        android:gravity="center"
+        android:id="@+id/C4"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/window"
+        android:background="@color/Verde2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dip"
+        android:text="83.8%\nServicio\nToma de\nPedido"
+        android:gravity="center"
+        android:id="@+id/C5"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/window"
+        android:background="@color/Amarillo"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dip"
+        android:text="83.8%\nServicio\nToma de\nPedido"
+        android:gravity="center"
+        android:layout_rowWeight="1"
+        android:id="@+id/C6"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/window"
+        android:background="@color/Rojo2"/>
+
+
+</GridLayout>

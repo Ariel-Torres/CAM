@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blackText">#000000</color>
+    <color name="grisoscuro">#cfcece</color>
+    <color name="grisclaro">#1d7aec</color>
+    <color name="AzulDark">#02186e</color>
+    <!-- colores semaforo -->
+    <color name="Amarillo">#ffff00</color>
+    <color name="Amarillo_claro">#C6C600</color>
+    <color name="Rojo">#ff0000</color>
+    <color name="Rojo_claro">#C60000</color>
+    <color name="Verde">#00ff00</color>
+    <color name="Verde_oscuro">#00DA00</color>
+    <color name="Amarillo2">#efef02</color>
+    <color name="Amarillo2_claro">#BDBD00</color>
+    <color name="Rojo2">#df0101</color>
+    <color name="Rojo2_claro">#B40000</color>
+    <color name="Verde2">#01e201</color>
+    <color name="Verde2_oscuro">#009C00</color>
+    <color name="grisito">#fafafa</color>
+
+</resources>

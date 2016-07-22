@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Prueba</string>
+    <string name="lblCliente">Cliente</string>
+    <string name="lblUsuario">Usuario</string>
+    <string name="lblContraseña">Contraseña</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="canales">Canales</string>
+    <string name="Pais">Pais</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+    <string name="completar_campos">Por favor, completar los campos</string>
+    <string name="NoProductos">No tiene productos disponibles</string>
+    <string name="error_network_timeout">Al parecer, el servidor no contestó</string>
+    <string name="error_auth_fail">No se pudo conectar al servidor</string>
+    <string name="error_server">Error de Servidor</string>
+    <string name="error_network">Verifique su conexión a internet</string>
+    <string name="error_no_id">Se obtuvo el error:</string>
+    <string name="inicio">Inicio</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="IniciarSesion">Iniciando Sesion</string>
+</resources>
