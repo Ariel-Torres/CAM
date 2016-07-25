@@ -4,10 +4,92 @@
     android:layout_height="match_parent"
     tools:context="com.innvestiga.prueba.Canales.VistaPais">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearnombrecanal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Canal  nombre_canal"
+                    android:paddingTop="10px"
+                    android:id="@+id/txtnombreCanal_vp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_below="@+id/linearnombrecanal"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/linearcanales_vc">
+                <com.innvestiga.prueba.UI.ControlCanales
+                    android:id="@+id/vistaTotal_vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </com.innvestiga.prueba.UI.ControlCanales>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearvistaPaises"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearcanales_vc">
+                <ViewFlipper
+                    android:layout_weight="1"
+                    android:id="@+id/simpleViewFlipper_vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/grisito">
+
+                </ViewFlipper>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/BtnAntes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/flecha_izq"
+                        android:text="Anterior" />
+
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="1/6"
+                        android:id="@+id/contador_vp" />
+
+                    <Button
+                        android:id="@+id/BtnDespues"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableRight="@drawable/flechader"
+                        android:text="Siguiente" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
 
 </FrameLayout>

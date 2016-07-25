@@ -1,12 +1,14 @@
 package com.innvestiga.prueba.Activities;
 
 
+import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.util.Log;
 import android.util.SparseIntArray;
 import android.view.KeyEvent;
@@ -40,9 +42,8 @@ public class MainActivity extends NavigationLiveo implements NavigationLiveoList
     private static final String TAG = "LOGO";
     Bundle bundle = new Bundle();
     //Fragments
-    Inicio inicio = new Inicio();
-    VistaRegion vistaRegion = new VistaRegion();
-    VistaCanal vistaCanal= new VistaCanal();
+    Inicio inicio;
+    VistaCanal vistaCanal;
     ArrayList<String> menu;
     Context context = MainActivity.this;
     String Base;
@@ -146,7 +147,8 @@ public class MainActivity extends NavigationLiveo implements NavigationLiveoList
 
     @Override //The "layoutContainerId" should be used in "beginTransaction (). Replace"
     public void onItemClickNavigation(int position, int layoutContainerId) {
-        bundle.putStringArrayList("canales",menu);
+        inicio = new Inicio();
+        vistaCanal= new VistaCanal();
         FragmentTransaction trans = mFragmentManager.beginTransaction();
         android.support.v7.app.ActionBar bar = getSupportActionBar();
         switch (position) {
@@ -158,7 +160,6 @@ public class MainActivity extends NavigationLiveo implements NavigationLiveoList
                 }
                 if (!inicio.isVisible()) {
                     System.out.println("INICIO no visible");
-                    inicio.setArguments(bundle);
                     trans.replace(layoutContainerId, inicio, "Inicio");
                 }
                 setTitle(getString(R.string.inicio));
@@ -169,10 +170,11 @@ public class MainActivity extends NavigationLiveo implements NavigationLiveoList
                     bar.setDisplayShowTitleEnabled(false);
                     bar.setDisplayShowTitleEnabled(true);
                 }
-                if (!vistaRegion.isVisible()) {
+                if (!vistaCanal.isVisible()) {
+                    bundle.putString("NombreCanal","Mesas");
                     System.out.println("VistaCanal no visible");
-                    vistaRegion.setArguments(bundle);
-                    trans.replace(layoutContainerId, vistaRegion, "VistaCanal");
+                    vistaCanal.setArguments(bundle);
+                    trans.replace(layoutContainerId, vistaCanal, "VistaCanal");
                 }
                 setTitle(mListNameItem.get(position));
                 break;
@@ -193,17 +195,6 @@ public class MainActivity extends NavigationLiveo implements NavigationLiveoList
     @Override
     public void onClickUserPhotoNavigation(View view) {
 
-    }
-
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        System.out.println("salió");
-        switch (keyCode) {
-            case KeyEvent.KEYCODE_BACK:
-
-                break;
-        }
-        return super.onKeyDown(keyCode, event);
     }
 
 }

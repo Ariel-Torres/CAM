@@ -124,6 +124,7 @@ public class ControlCanales extends GridLayout {
     public void setTitulo(String txt){
         txtCanal.setText(txt);
     }
+    public void setTotal(String txt) {ctotal.setText(txt);}
     public void ShowTitulo(boolean mostrar){
         if(mostrar){
             txtCanal.setVisibility(VISIBLE);
@@ -142,6 +143,13 @@ public class ControlCanales extends GridLayout {
             c6.setVisibility(VISIBLE);
         }
     }
+    public String OrdenarTotal(String total, String año){
+        String devolver = "";
+        devolver = año+"\n"+total+"%"+"\n"+"EXPERIENCIA TOTAL";
+        return  devolver;
+    }
+
+
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
     public void numerodesecciones(int secciones){
         GridLayout.LayoutParams params;

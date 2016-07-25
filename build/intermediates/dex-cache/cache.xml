@@ -1,3 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\INN_MOBILE\Prueba\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\INN_MOBILE\Prueba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_312ddbadec883e1f5ae94d7fa4613ec778bcbc71\classes.dex" />
+    </item>
+    <item
+        jar="C:\INN_MOBILE\Prueba\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5df39dcd38b8a89c62b753bcd2c96248ef50d828">
+        <dex dex="C:\INN_MOBILE\Prueba\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8b4c6c29084a541939092e87053ea80fe3e0cd39\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ariel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\INN_MOBILE\Prueba\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_2fff5cd3103fe3c2b7d6c21646a8d598da77bd5e\classes.dex" />
+    </item>
+    <item
+        jar="C:\INN_MOBILE\Prueba\app\build\intermediates\exploded-aar\br.com.liveo\navigationdrawer-material\1.0.4\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="1b96e0fe48e870084303e325cef0685f001ea85e">
+        <dex dex="C:\INN_MOBILE\Prueba\app\build\intermediates\transforms\dex\debug\folders\1000\10\br.com.liveo-navigationdrawer-material-1.0.4_9b2d10bd2e94c1ca7561212c6e334b81473424e8\classes.dex" />
+    </item>
+    <item
+        jar="C:\INN_MOBILE\Prueba\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d898f3b24b6fc54ad274ddf648380daa22692a18">
+        <dex dex="C:\INN_MOBILE\Prueba\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_61930b4db4c4c0458dbb99b6f0589180639b14c6\classes.dex" />
+    </item>
+    <item
+        jar="C:\INN_MOBILE\Prueba\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\INN_MOBILE\Prueba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_2a0ce992e84b5b2cdb5c686e7f902cf10add9654\classes.dex" />
+    </item>
+    <item
+        jar="C:\INN_MOBILE\Prueba\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\INN_MOBILE\Prueba\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_a21cc3834208be4903e65de8e8ed10c3297a8002\classes.dex" />
+    </item>
+
+</items>

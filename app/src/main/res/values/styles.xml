@@ -1,4 +1,5 @@
 <resources>
+
     <style name="myTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/nliveo_blue_colorPrimary</item>
@@ -12,5 +13,9 @@
         <item name="colorPrimaryDark">@color/AzulDark</item>
         <item name="colorAccent">@color/nliveo_blue_colorPrimary</item>
     </style>
+
+    <style name="myTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="myTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
