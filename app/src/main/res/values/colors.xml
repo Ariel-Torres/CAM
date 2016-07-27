@@ -21,5 +21,7 @@
     <color name="Verde2">#01e201</color>
     <color name="Verde2_oscuro">#009C00</color>
     <color name="grisito">#fafafa</color>
+    <color name="anaranjado">#ff6a24</color>
+    <color name="blanco">#ffffff</color>
 
 </resources>

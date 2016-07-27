@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.innvestiga.prueba.Canales.VistaVisita">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/linearvideo"
+        android:orientation="horizontal"
+        android:paddingTop="115px"
+        android:paddingBottom="115px"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/placeholder"
+            android:id="@+id/imageView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearsemaforo"
+        android:layout_below="@+id/linearvideo"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginTop="60px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Ver semaforo"
+            android:id="@+id/txtSemaforo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/linearsemaforo"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="60px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:hint="Ver comentarios"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
