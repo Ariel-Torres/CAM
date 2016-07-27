@@ -6,3 +6,9 @@
 .DS_Store
 /build
 /captures
+/.idea/
+volley/volley.iml
+app/app.iml
+.idea/workspace.xml
+.idea/modules.xml
+.idea/misc.xml

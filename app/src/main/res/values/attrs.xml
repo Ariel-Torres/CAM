@@ -3,4 +3,7 @@
     <declare-styleable name="ControlLogin">
         <attr name="login_text" format="string"/>
     </declare-styleable>
+    <declare-styleable name="ControlSucursal">
+        <attr name="sucursal_text" format="string"/>
+    </declare-styleable>
 </resources>
